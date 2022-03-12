@@ -13,15 +13,10 @@ tr:nth-child(even) {
 
 #inputs {
   display: grid;
-  grid-template-columns: 250px 250px 250px 150px;
+  grid-template-columns: repeat(4,80px);
 }
 
 p{
   font-size: 24px;
 }
 
-@media (max-width: 800px) {
-  p{
-    font-size: 46px;
-  }
-}
