@@ -19,3 +19,9 @@ tr:nth-child(even) {
 p{
   font-size: 24px;
 }
+
+@media (max-width: 800px) {
+  p{
+    font-size: 46px;
+  }
+}
