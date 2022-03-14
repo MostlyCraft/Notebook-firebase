@@ -24,3 +24,9 @@ p{
 table{
   border-collapse: collapse;
 }
+
+@media (max-width: 900px){
+  #inputs{
+    grid-template-columns: repeat(4, 80px);
+  }
+}
