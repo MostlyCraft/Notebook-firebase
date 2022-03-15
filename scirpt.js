@@ -92,4 +92,4 @@
       console.log(identifier)
       await deleteDoc(doc(db, "Huskeliste", `Document-${identifier}`));
       }
-    )
+    );
